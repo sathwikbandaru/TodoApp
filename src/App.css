@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box !important;
+}
+.main {
+  min-height: 90vh;
+  /* background-color: red; */
+}
+.todo {
+  border-right: 1px solid black;
+  height: 90vh;
+  padding: 0 15px !important;
+}
+.progres,
+.complete,
+.review {
+  height: 90vh;
+  border-right: 1px solid black;
+  padding: 10px 15px !important;
+}
+
+.card {
+  border-radius: 5px;
+  margin: 10px auto !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 5px 10px !important;
+  max-width: 250px;
+  cursor: pointer;
+}
+.card .card-title {
+  font-size: 20px !important;
+  text-transform: capitalize;
+}
+.card span {
+  color: lightgrey;
+  margin: 5px 15px !important;
+}
+
+.card span h6 {
+  color: rgb(141, 139, 139);
+}
+
+.todoClass {
+  margin-left: 20px !important;
+  color: blue;
+  border-radius: 50px;
+  background: rgba(118, 118, 237, 0.429);
+  padding: 10px 15px;
+  width: 110px;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.todoClass .circle {
+  height: 5px;
+  width: 5px;
+  border-radius: 5px;
+  background: rgba(83, 83, 246, 0.811);
+}
+
+.progressss {
+  margin-left: 20px !important;
+  color: rgb(231, 120, 220);
+  border-radius: 50px;
+  background: rgba(248, 172, 241, 0.518);
+  padding: 10px 15px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.progressss .circle {
+  height: 5px;
+  width: 5px;
+  border-radius: 5px;
+  background: rgba(219, 102, 235, 0.811);
+}
+
+.review11 {
+  margin-left: 20px !important;
+  color: skyblue;
+  border-radius: 50px;
+  background: rgba(194, 233, 248, 0.784);
+  padding: 10px 15px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.review11 .circle {
+  height: 5px;
+  width: 5px;
+  border-radius: 5px;
+  background: rgba(105, 186, 218, 0.784);
+}
+
+.completed {
+  margin-left: 20px !important;
+  color: rgb(40, 164, 40);
+  border-radius: 50px;
+  background: rgba(154, 249, 154, 0.44);
+  padding: 10px 15px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.completed .circle {
+  height: 5px;
+  width: 5px;
+  border-radius: 5px;
+  background: rgb(46, 213, 46);
+}
+
+.addtask {
+  margin-left: 20px !important;
+  margin-top: 15px !important;
+}
